@@ -1,0 +1,76 @@
+.sidebar {
+  width: 280px;
+  background: #fe6f5e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.profile {
+  text-align: center;
+}
+
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+  }
+
+  .profile h3 {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+
+  .profile p {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: .8;
+  }
+
+.menu {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+  .menu a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: .3s;
+  }
+
+    .menu a:hover {
+      background: rgba(255,255,255,.2);
+    }
+
+  .menu .active {
+    background: white;
+    color: #ff6b81;
+    font-weight: bold;
+  }
+
+.logout a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+  .logout a:hover {
+    background: rgba(255,255,255,.2);
+  }

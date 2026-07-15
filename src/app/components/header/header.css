@@ -1,0 +1,85 @@
+.header {
+  height: 90px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+/* Logo */
+
+.logo {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.red {
+  color: #ff6b81;
+}
+
+.black {
+  color: #222;
+}
+
+/* Search Box */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+  .search-container input {
+    flex: 1;
+    height: 42px;
+    border: none;
+    outline: none;
+    background: #f4f5fa;
+    padding: 0 15px;
+    border-radius: 10px 0 0 10px;
+    font-size: 15px;
+  }
+
+  .search-container button {
+    width: 50px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+    background: #ff6b81;
+    color: white;
+    border-radius: 0 10px 10px 0;
+  }
+
+/* Right Side */
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.icon-btn {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  background: #ff6b81;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.date {
+  text-align: right;
+}
+
+  .date h4 {
+    font-size: 16px;
+  }
+
+  .date p {
+    color: #55aaff;
+    font-size: 14px;
+  }

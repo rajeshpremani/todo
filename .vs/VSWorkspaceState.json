@@ -3,8 +3,12 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\components"
+    "\\src\\app\\components",
+    "\\src\\app\\components\\header",
+    "\\src\\app\\components\\sidebar",
+    "\\src\\assets",
+    "\\src\\assets\\images"
   ],
-  "SelectedNode": "\\src\\app\\app.html",
+  "SelectedNode": "\\src\\app\\components\\header\\header.css",
   "PreviewInSolutionExplorer": false
 }
