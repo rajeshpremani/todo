@@ -6,9 +6,8 @@
     "\\src\\app\\components",
     "\\src\\app\\components\\header",
     "\\src\\app\\components\\sidebar",
-    "\\src\\assets",
-    "\\src\\assets\\images"
+    "\\src\\app\\interfaces"
   ],
-  "SelectedNode": "\\src\\app\\components\\header\\header.css",
+  "SelectedNode": "\\src\\styles.css",
   "PreviewInSolutionExplorer": false
 }

@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\header\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\header\\header.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\sidebar\\sidebar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\sidebar\\sidebar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\header\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\header\\header.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\sidebar\\sidebar.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedHeight": 274,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sidebar.css",
+              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\sidebar\\sidebar.css",
+              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.css",
+              "RelativeToolTip": "src\\app\\components\\sidebar\\sidebar.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-15T20:57:48.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "header.css",
+              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.css",
+              "RelativeDocumentMoniker": "src\\app\\components\\header\\header.css",
+              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.css",
+              "RelativeToolTip": "src\\app\\components\\header\\header.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-15T20:57:27.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\index.html",
+              "RelativeDocumentMoniker": "src\\index.html",
+              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\index.html",
+              "RelativeToolTip": "src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-15T20:53:50.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\styles.css",
+              "RelativeDocumentMoniker": "src\\styles.css",
+              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\styles.css",
+              "RelativeToolTip": "src\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-15T20:50:52.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "sidebar.html",
+              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\sidebar\\sidebar.html",
+              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.html",
+              "RelativeToolTip": "src\\app\\components\\sidebar\\sidebar.html",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-15T20:43:17.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "header.html",
+              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.html",
+              "RelativeDocumentMoniker": "src\\app\\components\\header\\header.html",
+              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.html",
+              "RelativeToolTip": "src\\app\\components\\header\\header.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-15T20:41:37.272Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -62,112 +132,8 @@
         },
         {
           "DockedHeight": 126,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "header.css",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.css",
-              "RelativeDocumentMoniker": "src\\app\\components\\header\\header.css",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.css",
-              "RelativeToolTip": "src\\app\\components\\header\\header.css",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-07-15T20:19:34.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "header.html",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.html",
-              "RelativeDocumentMoniker": "src\\app\\components\\header\\header.html",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\header\\header.html",
-              "RelativeToolTip": "src\\app\\components\\header\\header.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-07-15T20:17:09.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "app.html",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\app.html",
-              "RelativeDocumentMoniker": "src\\app\\app.html",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\app.html",
-              "RelativeToolTip": "src\\app\\app.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-07-15T20:16:03.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "angular.json",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\angular.json",
-              "RelativeDocumentMoniker": "angular.json",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\angular.json",
-              "RelativeToolTip": "angular.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-15T20:10:20.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-15T20:10:09.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\index.html",
-              "RelativeDocumentMoniker": "src\\index.html",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\index.html",
-              "RelativeToolTip": "src\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-07-15T19:46:29.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "sidebar.css",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.css",
-              "RelativeDocumentMoniker": "src\\app\\components\\sidebar\\sidebar.css",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.css",
-              "RelativeToolTip": "src\\app\\components\\sidebar\\sidebar.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-07-15T19:34:59.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "sidebar.html",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.html",
-              "RelativeDocumentMoniker": "src\\app\\components\\sidebar\\sidebar.html",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\sidebar\\sidebar.html",
-              "RelativeToolTip": "src\\app\\components\\sidebar\\sidebar.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-07-15T19:31:49.696Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"

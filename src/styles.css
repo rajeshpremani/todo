@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-color: #ff6b81;
+  --secondary-color: #f4f5fa;
+  --white: #ffffff;
+  --black: #222222;
+  --gray: #888888;
+  --shadow: 0 5px 15px rgba(0,0,0,.08);
+  --border-radius: 15px;
+}
+
+.card {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
