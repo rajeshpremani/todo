@@ -1,4 +1,4 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, signal, computed } from '@angular/core';
 import { Task } from '../interfaces/task';
 
 @Injectable({
@@ -12,42 +12,57 @@ export class TaskService {
       title: 'Attend Birthday Party',
       description: 'Buy gifts before reaching the venue.',
       priority: 'High',
+      status: 'In Progress',
       dueDate: 'Today',
-      progress: 75,
+      progress: 60,
       members: [
         'assets/images/profile.jpg',
         'assets/images/profile.jpg'
-      ],
-      completed: false
+      ]
     },
     {
       id: 2,
       title: 'Landing Page Design',
       description: 'Complete dashboard UI.',
       priority: 'Medium',
+      status: 'Completed',
       dueDate: 'Tomorrow',
-      progress: 45,
+      progress: 100,
       members: [
         'images/profile.jpg',
         'images/profile.jpg',
         'images/profile.jpg'
-      ],
-      completed: true
+      ]
     },
     {
       id: 3,
       title: 'Meeting with Client',
       description: 'Discuss project scope.',
       priority: 'Low',
+      status: 'Pending',
       dueDate: 'Friday',
-      progress: 20,
+      progress: 0,
       members: [
         'images/profile.jpg'
-      ],
-      completed: false
+      ]
     }
   ]);
 
   readonly tasks = this._tasks.asReadonly();
+
+  completedTasks = computed(() => this.tasks().filter(task => task.status === 'Completed').length);
+
+  inProgressTasks = computed(() => this.tasks().filter(task => task.status === 'In Progress').length);
+
+  pendingTasks = computed(() => this.tasks().filter(task => task.status === 'Pending').length);
+
+  overallProgress = computed(() => {
+    const tasks = this.tasks();
+    if (tasks.length === 0) {
+      return 0;
+    }
+    const totalProgress = tasks.reduce((sum, task) => sum + task.progress, 0);
+    return Math.round(totalProgress / tasks.length);
+  });
 
 }

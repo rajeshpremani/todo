@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { TaskService } from '../../services/task';
 
 @Component({
   selector: 'app-task-status',
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './task-status.html',
   styleUrl: './task-status.css',
 })
-export class TaskStatus {}
+export class TaskStatus {
+  taskService = inject(TaskService);
+}

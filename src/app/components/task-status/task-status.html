@@ -8,7 +8,7 @@
 
       <span>
 
-        75%
+        {{taskService.overallProgress()}}%
 
       </span>
 
@@ -22,7 +22,7 @@
 
       <span>Completed</span>
 
-      <strong>09</strong>
+      <strong>{{ taskService.completedTasks() }}</strong>
 
     </div>
 
@@ -30,7 +30,7 @@
 
       <span>In Progress</span>
 
-      <strong>03</strong>
+      <strong>{{taskService.inProgressTasks()}}</strong>
 
     </div>
 
@@ -38,7 +38,7 @@
 
       <span>Pending</span>
 
-      <strong>02</strong>
+      <strong>{{taskService.pendingTasks()}}</strong>
 
     </div>
 

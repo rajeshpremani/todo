@@ -4,13 +4,12 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\dashboard",
     "\\src\\app\\components\\task-status",
     "\\src\\app\\interfaces",
     "\\src\\app\\services",
     "\\src\\public",
     "\\src\\public\\images"
   ],
-  "SelectedNode": "\\src\\app\\components\\dashboard\\dashboard.html",
+  "SelectedNode": "\\src\\app\\components\\task-status\\task-status.html",
   "PreviewInSolutionExplorer": false
 }
