@@ -1,9 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { TodoCard } from '../todo-card/todo-card';
+import { TaskService } from '../../services/task';
+
 
 @Component({
   selector: 'app-todo-list',
-  imports: [],
+  standalone: true,
+  imports: [
+    CommonModule,
+    TodoCard
+  ],
   templateUrl: './todo-list.html',
-  styleUrl: './todo-list.css',
+  styleUrl: './todo-list.css'
 })
-export class TodoList {}
+export class TodoList {
+  taskService = inject(TaskService);
+}

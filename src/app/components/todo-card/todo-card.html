@@ -1,1 +1,79 @@
-<p>todo-card works!</p>
+<div class="task-card">
+
+  <div class="task-header">
+
+    <h3>{{ task().title }}</h3>
+
+    <button class="more-btn">
+      <i class="fa-solid fa-ellipsis"></i>
+    </button>
+
+  </div>
+
+  <p class="description">
+
+    {{ task().description }}
+
+  </p>
+
+  <div class="task-info">
+
+    <span class="priority"
+          [class.high]="task().priority === 'High'"
+          [class.medium]="task().priority === 'Medium'"
+          [class.low]="task().priority === 'Low'">
+
+      {{ task().priority }}
+
+    </span>
+
+    <span class="date">
+
+      <i class="fa-regular fa-calendar"></i>
+
+      {{ task().dueDate }}
+
+    </span>
+
+  </div>
+
+  <div class="progress-section">
+
+    <div class="progress-bar">
+
+      <div class="progress-fill"
+           [style.width.%]="task().progress">
+
+      </div>
+
+    </div>
+
+    <span>
+
+      {{ task().progress }}%
+
+    </span>
+
+  </div>
+
+  <div class="task-footer">
+
+    <div class="members">
+
+      @for(member of task().members; track member){
+
+      <img [src]="member">
+
+      }
+
+    </div>
+
+    <button class="view-btn">
+
+      View
+
+    </button>
+
+  </div>
+
+</div>

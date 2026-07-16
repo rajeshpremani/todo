@@ -4,10 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\header",
-    "\\src\\app\\components\\sidebar",
-    "\\src\\app\\interfaces"
+    "\\src\\app\\components\\dashboard",
+    "\\src\\app\\components\\task-status",
+    "\\src\\app\\interfaces",
+    "\\src\\app\\services",
+    "\\src\\public",
+    "\\src\\public\\images"
   ],
-  "SelectedNode": "\\src\\styles.css",
+  "SelectedNode": "\\src\\app\\components\\dashboard\\dashboard.html",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,64 @@
+.dashboard {
+  padding: 30px;
+}
+
+/* Welcome Section */
+
+.welcome-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+  .welcome-section h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .welcome-section span {
+    color: var(--primary-color);
+  }
+
+.team {
+  display: flex;
+  align-items: center;
+}
+
+  .team img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-left: -10px;
+  }
+
+    .team img:first-child {
+      margin-left: 0;
+    }
+
+.invite-btn {
+  margin-left: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: var(--primary-color);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+/* Grid */
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
