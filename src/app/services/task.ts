@@ -44,7 +44,8 @@ export class TaskService {
       progress: 0,
       members: [
         'images/profile.jpg'
-      ]
+      ],
+      image: '/images/img1.png'
     }
   ]);
 
@@ -64,5 +65,9 @@ export class TaskService {
     const totalProgress = tasks.reduce((sum, task) => sum + task.progress, 0);
     return Math.round(totalProgress / tasks.length);
   });
+
+  getTaskById(id: number): Task | undefined {
+    return this.tasks().find(task => task.id === id);
+  }
 
 }

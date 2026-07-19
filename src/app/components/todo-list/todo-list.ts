@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { TodoCard } from '../todo-card/todo-card';
@@ -17,4 +17,10 @@ import { TaskService } from '../../services/task';
 })
 export class TodoList {
   taskService = inject(TaskService);
+
+  openModel = output<void>();
+  
+  openAddTask() {
+    this.openModel.emit();
+  }
 }

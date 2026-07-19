@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-completed-task',
@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './completed-task.html',
   styleUrl: './completed-task.css',
 })
-export class CompletedTask {}
+export class CompletedTask {
+  
+}

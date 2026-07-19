@@ -1,93 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\dashboard\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\dashboard\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\dashboard\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\dashboard\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\task-status\\task-status.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\task-status\\task-status.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\task-status\\task-status.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\components\\task-status\\task-status.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 274,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dashboard.css",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\dashboard\\dashboard.css",
-              "RelativeDocumentMoniker": "src\\app\\components\\dashboard\\dashboard.css",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\dashboard\\dashboard.css",
-              "RelativeToolTip": "src\\app\\components\\dashboard\\dashboard.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-07-16T14:51:49.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dashboard.html",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\dashboard\\dashboard.html",
-              "RelativeDocumentMoniker": "src\\app\\components\\dashboard\\dashboard.html",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\dashboard\\dashboard.html",
-              "RelativeToolTip": "src\\app\\components\\dashboard\\dashboard.html",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-07-16T14:50:21.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "task-status.css",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\task-status\\task-status.css",
-              "RelativeDocumentMoniker": "src\\app\\components\\task-status\\task-status.css",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\task-status\\task-status.css",
-              "RelativeToolTip": "src\\app\\components\\task-status\\task-status.css",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-07-16T14:46:07.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "task-status.html",
-              "DocumentMoniker": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\task-status\\task-status.html",
-              "RelativeDocumentMoniker": "src\\app\\components\\task-status\\task-status.html",
-              "ToolTip": "C:\\Users\\rajesh.kumar\\Desktop\\Task 1 - TODO\\TODO-Front\\todo\\src\\app\\components\\task-status\\task-status.html",
-              "RelativeToolTip": "src\\app\\components\\task-status\\task-status.html",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-07-16T14:42:12.507Z",
-              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 238,
+          "DockedWidth": 1473,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -97,7 +28,7 @@
           ]
         },
         {
-          "DockedHeight": 126,
+          "DockedWidth": 1524,
           "SelectedChildIndex": -1,
           "Children": [
             {

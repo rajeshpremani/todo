@@ -7,4 +7,5 @@ export interface Task {
   dueDate: String;
   progress: number;
   members: string[];
+  image?: string;
 }

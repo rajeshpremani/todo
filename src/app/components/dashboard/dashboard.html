@@ -37,7 +37,7 @@
 
     <div class="left-column">
 
-      <app-todo-list></app-todo-list>
+      <app-todo-list (openModel)="openAddTask()"></app-todo-list>
 
     </div>
 
@@ -47,8 +47,17 @@
 
       <app-completed-task></app-completed-task>
 
+
+
+
     </div>
 
   </div>
 
+
 </div>
+
+@if(showAddTask()){
+<app-add-task-model (close)="closeAddTask()"></app-add-task-model>
+}
+

@@ -1,0 +1,123 @@
+<div class="overlay" (click)="goBack()">
+
+  <div class="modal"
+       (click)="$event.stopPropagation()">
+
+    <div class="modal-header">
+
+      <h2>Add New Task</h2>
+
+      <button class="back-btn"
+              type="button"
+              (click)="goBack()">
+
+        Go Back
+
+      </button>
+
+    </div>
+
+    <form>
+
+      <!-- Title -->
+
+      <div class="form-group">
+
+        <label>Title</label>
+
+        <input type="text"
+               placeholder="Enter task title">
+
+      </div>
+
+      <!-- Date -->
+
+      <div class="form-group">
+
+        <label>Date</label>
+
+        <input type="date">
+
+      </div>
+
+      <!-- Priority -->
+
+      <div class="form-group">
+
+        <label>Priority</label>
+
+        <div class="priority-group">
+
+          <label>
+
+            <input type="radio" name="priority">
+
+            High
+
+          </label>
+
+          <label>
+
+            <input type="radio" name="priority">
+
+            Medium
+
+          </label>
+
+          <label>
+
+            <input type="radio" name="priority">
+
+            Low
+
+          </label>
+
+        </div>
+
+      </div>
+
+      <!-- Bottom Grid -->
+
+      <div class="bottom-grid">
+
+        <!-- Description -->
+
+        <div class="form-group">
+
+          <label>Task Description</label>
+
+          <textarea placeholder="Start writing here...">
+            </textarea>
+
+        </div>
+
+        <!-- Upload -->
+
+        <div class="upload-box">
+
+          <i class="fa-regular fa-image upload-icon"></i>
+
+          <p>Drag & Drop Files Here</p>
+
+          <span>or</span>
+
+          <button type="button">
+
+            Browse
+
+          </button>
+
+        </div>
+
+      </div>
+
+      <button class="done-btn"
+              type="button">
+
+        Done
+
+      </button>
+
+    </form>
+    </div>
+  </div>

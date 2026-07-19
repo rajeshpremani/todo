@@ -4,12 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\task-status",
+    "\\src\\app\\components\\add-task-model",
+    "\\src\\app\\components\\sidebar",
+    "\\src\\app\\components\\todo-card",
     "\\src\\app\\interfaces",
-    "\\src\\app\\services",
-    "\\src\\public",
-    "\\src\\public\\images"
+    "\\src\\app\\models",
+    "\\src\\app\\services"
   ],
-  "SelectedNode": "\\src\\app\\components\\task-status\\task-status.html",
+  "SelectedNode": "\\src\\app\\components\\view-task\\view-task.css",
   "PreviewInSolutionExplorer": false
 }

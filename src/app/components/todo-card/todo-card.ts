@@ -1,6 +1,8 @@
 import { Component, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Task } from '../../interfaces/task';
+import { Router } from '@angular/router';
+import { inject } from '@angular/core';
 
 @Component({
   selector: 'app-todo-card',
@@ -12,9 +14,13 @@ import { Task } from '../../interfaces/task';
 })
 export class TodoCard {
 
-  //@Input() task!: Task; //old
-
   task = input.required<Task>();
+
+  private router = inject(Router);
+
+  viewTask() {
+    this.router.navigate(['/view-task', this.task().id]);
+  }
 
 
 }

@@ -23,3 +23,16 @@
   flex-direction: column;
   gap: 18px;
 }
+
+.add-task-btn {
+  border: none;
+  background: none;
+  color: var(--primary-color);
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+  .add-task-btn i {
+    margin-right: 6px;
+  }

@@ -1,0 +1,106 @@
+<div class="view-task-container">
+
+  <!-- Header -->
+
+  <div class="task-header">
+
+    <div class="task-image">
+
+      <img [src]="task()?.image || 'assets/images/default-task.jpg'"
+           alt="Task">
+
+    </div>
+
+    <div class="task-info">
+
+      <div class="top-row">
+
+        <h1>{{ task()?.title }}</h1>
+
+        <button class="back-btn" (click)="goBack()">
+          <i class="fa-solid fa-arrow-left"></i>
+          Go Back
+        </button>
+
+      </div>
+
+      <p class="priority-content">
+
+        <strong>Priority:</strong>
+
+        <span class="priority"
+              [class.high]="task()?.priority === 'High'"
+              [class.medium]="task()?.priority === 'Medium'"
+              [class.low]="task()?.priority === 'Low'">
+
+          {{ task()?.priority }}
+
+        </span>
+
+      </p>
+
+      <p class="status-content">
+
+        <strong>Status:</strong>
+
+        <span class="status"
+              [class.completed]="task()?.status === 'Completed'"
+              [class.pending]="task()?.status === 'Pending'"
+              [class.inprogress]="task()?.status === 'In Progress'">
+
+          {{ task()?.status }}
+
+        </span>
+
+      </p>
+
+      <p class="created">
+
+        Created on :
+        {{ task()?.dueDate }}
+
+      </p>
+
+    </div>
+
+  </div>
+
+  <hr>
+
+  <!-- Description -->
+
+  <div class="task-description">
+
+    <p>
+
+      {{ task()?.description }}
+
+    </p>
+
+  </div>
+
+  <!-- Footer -->
+
+  <div class="task-footer">
+
+    <button class="delete-btn">
+
+      <i class="fa-solid fa-trash"></i>
+
+    </button>
+
+    <button class="edit-btn">
+
+      <i class="fa-solid fa-pen"></i>
+
+    </button>
+
+    <button class="complete-btn">
+
+      <i class="fa-solid fa-check"></i>
+
+    </button>
+
+  </div>
+
+</div>
