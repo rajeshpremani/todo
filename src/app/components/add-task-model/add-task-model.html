@@ -5,7 +5,11 @@
 
     <div class="modal-header">
 
-      <h2>Add New Task</h2>
+      <h2>
+
+        {{ mode() === 'add' ? 'Add New Task' : 'Edit Task' }}
+      
+      </h2>
 
       <button class="back-btn"
               type="button"
@@ -26,7 +30,11 @@
         <label>Title</label>
 
         <input type="text"
-               placeholder="Enter task title">
+               [value]="title()"
+               placeholder="Enter task title"
+               (input)="title.set(txtTitle.value)"
+               #txtTitle
+               >
 
       </div>
 
@@ -50,23 +58,33 @@
 
           <label>
 
-            <input type="radio" name="priority">
-
+            <input type="radio"
+                   [value]="'High'"
+                   [checked]="priority() === 'High'"
+                   (change)="priority.set('High')"
+                   High />
             High
 
           </label>
 
           <label>
 
-            <input type="radio" name="priority">
-
+            <input type="radio"
+                   [value]="'Medium'"
+                   [checked]="priority() === 'Medium'"
+                   (change)="priority.set('Medium')"
+                   />
             Medium
-
           </label>
 
           <label>
 
-            <input type="radio" name="priority">
+           
+
+            <input type="radio"
+                   [value]="'Low'"
+                   [checked]="priority() === 'Low'"
+                   (change)="priority.set('Low')" />
 
             Low
 
@@ -86,7 +104,10 @@
 
           <label>Task Description</label>
 
-          <textarea placeholder="Start writing here...">
+          <textarea #txtDescription
+                    (input)="description.set(txtDescription.value)"
+                    placeholder="Start writing here...">
+            {{ description() }}
             </textarea>
 
         </div>
@@ -112,9 +133,10 @@
       </div>
 
       <button class="done-btn"
-              type="button">
+              type="button" (click)="saveTask()">
 
-        Done
+        {{ mode() === 'add' ? 'Create Task' : 'Update Task' }}
+
 
       </button>
 

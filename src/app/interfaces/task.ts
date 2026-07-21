@@ -4,7 +4,7 @@ export interface Task {
   description: string;
   priority: 'High' | 'Medium' | 'Low';
   status: 'Completed' | 'In Progress' | 'Pending';
-  dueDate: String;
+  dueDate: string;
   progress: number;
   members: string[];
   image?: string;

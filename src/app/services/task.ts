@@ -70,4 +70,54 @@ export class TaskService {
     return this.tasks().find(task => task.id === id);
   }
 
+  updateTask(updatedTask: Task) {
+
+    this._tasks.update(tasks =>
+
+      tasks.map(task =>
+
+        task.id === updatedTask.id
+
+          ? updatedTask
+
+          : task
+
+      )
+
+    );
+
+  }
+
+  readonly showTaskModal = signal(false);
+
+  readonly modalMode = signal<'add' | 'edit'>('add');
+
+  readonly selectedTask = signal<Task | null>(null);
+
+  openAddTask() {
+
+    this.modalMode.set('add');
+
+    this.selectedTask.set(null);
+
+    this.showTaskModal.set(true);
+
+  }
+
+  openEditTask(task: Task) {
+
+    this.modalMode.set('edit');
+
+    this.selectedTask.set(task);
+
+    this.showTaskModal.set(true);
+
+  }
+
+  closeModal() {
+
+    this.showTaskModal.set(false);
+
+  }
+
 }

@@ -14,3 +14,13 @@
   </div>
 
 </div>
+
+@if(taskService.showTaskModal()){
+
+<app-add-task-model [mode]="taskService.modalMode()"
+                    [task]="taskService.selectedTask()"
+                    (close)="taskService.closeModal()">
+
+</app-add-task-model>
+
+}

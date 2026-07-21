@@ -26,4 +26,10 @@ export class ViewTask {
   goBack() {
     this.router.navigate(['/']);
   }
+
+  editTask() {
+    if (this.task()) {
+      this.taskService.openEditTask(this.task()!);
+    }
+  }
 }
