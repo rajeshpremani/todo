@@ -60,6 +60,14 @@ export class AddTaskModel {
       // Emit the new task to the parent component or service
       //this.close.emit(newTask);
     } else if (this.mode() === 'edit' && this.task()) {
+
+      this.title.set(this.task()!.title);
+
+      this.description.set(this.task()!.description);
+
+      this.priority.set(this.task()!.priority);
+
+      this.dueDate.set(this.task()!.dueDate);
       
       // Logic to update an existing task
       //const updatedTask: Task = {

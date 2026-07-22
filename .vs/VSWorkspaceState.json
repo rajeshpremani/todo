@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\add-task-model",
-    "\\src\\app\\components\\todo-card",
-    "\\src\\app\\components\\view-task",
-    "\\src\\app\\interfaces",
-    "\\src\\app\\models",
-    "\\src\\app\\services"
+    "\\src\\app\\components\\dashboard",
+    "\\src\\app\\components\\sidebar",
+    "\\src\\app\\features",
+    "\\src\\app\\features\\auth",
+    "\\src\\app\\features\\auth\\login"
   ],
+  "SelectedNode": "\\src\\app\\features\\auth\\login\\login.html",
   "PreviewInSolutionExplorer": false
 }

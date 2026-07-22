@@ -24,7 +24,7 @@ export class ViewTask {
   }
 
   goBack() {
-    this.router.navigate(['/']);
+    this.router.navigate(['/dashboard']);
   }
 
   editTask() {
